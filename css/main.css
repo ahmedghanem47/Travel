@@ -1,0 +1,261 @@
+.background-header{
+    background-image: url('../images/background-02-1920x900.png');
+    background-size: cover;
+    min-height: 100vh;
+}
+/*start style header*/
+.navbar .nav-item {
+    margin-right: 40px;
+    text-transform: uppercase;
+   
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #7fc142;
+}
+/*end style header*/
+.travel {
+    margin-top: 150px;
+}
+.travel .text-center h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+.travel .text-center p {
+    color: #fff;
+    font-size: 18px;
+}
+
+/*start style section tour */
+.tours {
+    margin-top: 20px;
+}
+.tours .text-center h1{
+    color: #5d5d5d;
+}
+.tours .row {
+    margin: 0;
+}
+.tours .row .card {
+    margin: 20px 60px;
+    padding: 0;
+}
+.tours .row .card h2 {
+    font-weight: bold;
+}
+.tours .row .card span {
+    float: right;
+}
+
+.tours .row .card:hover {
+    background-color: #2ec4b6;
+    transition: ease-in-out 1s;
+    margin-top: 30px;
+    color: #fff;
+}
+.tours a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    border: 1px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #7fc142;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+.tours a:hover {
+    background-color: #2ec4b6;
+}
+/*end style section tour*/
+.why-use {
+    margin-top: 100px;
+}
+.why-use {
+    background-image: url('../images/why-use.png');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.why-use .row {
+    margin: 0;
+}
+.why-use .text-center h1{
+   padding-top: 100px;
+   color: #fff;
+   font-weight: bold;
+}
+.why-use .text-center P {
+    color: #fff;
+}
+.why-use .cards {
+    margin-top: 80px;
+}
+.why-use .row div {
+    background-color: #fff;
+    margin: 20px;
+}
+.why-use .row div:hover {
+    background-color: #2ec4b6;
+    color: #fff;
+}
+.why-use .row div h2 {
+    font-size: 24px;
+    padding-top: 10px;
+}
+.why-use .row div p{
+    font-size: 16px;
+}
+.why-use .row i {
+   float: left;
+   margin-top: 20px;  
+
+}
+
+/*start style section trip*/
+/*start style section .our-clients*/
+.our-clients {
+    margin-top: 50px;
+}
+.our-clients .text-center h1 {
+    color: #909090;
+    font-weight: bold;
+    font-size: 30px;
+}
+.our-clients .text-center p {
+    color: #909090;
+    
+}
+.our-clients .row {
+    margin: 0;
+}
+.our-clients .row .box  {
+    margin-top: 60px;
+}
+.our-clients .row h2 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+}
+.our-clients a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    border: 1px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #7fc142;
+    border-radius: 25px;
+    padding: 15px;
+    font-weight: bold;
+}
+.our-clients a:hover {
+    background-color: #2ec4b6;
+}
+/*end style section .our-clients*/
+.trip {
+    margin-top: 100px;
+    background-image: url('../images/find-trip.png');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.trip div {
+    float: right;
+    margin: 100px;
+}
+.trip h1 {
+    color: #fff;
+    font-size: 50px; 
+    text-transform: uppercase; 
+
+}
+.trip a{
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #7fc142;
+    border-radius: 25px;
+    padding: 15px;
+    float: right;
+    font-weight: bold;
+    
+}
+.trip a:hover{
+    background-color: #2ec4b6;
+}
+/*end style section trip*/
+
+/*start style section contact-us*/
+.contact-us{
+    margin-top: 50px;
+}
+.contact-us .row {
+    margin: 0;
+}
+.contact-us .row div {
+    padding: 5px;
+}
+.contact-us .row .about-us span{
+    color: #5d5d5d; 
+    padding-right: 15px;
+}
+.contact-us .row .about-us a {
+    text-decoration: none;
+    color: #5d5d5d; 
+    padding-right: 15px;   
+}
+.contact-us .row .info a {
+    text-decoration: none;
+    padding: 5px;
+    color: #5d5d5d;
+    margin-right: 10px;
+
+}
+.contact-us .row .info a:hover {
+    background-color: #2ec4b6;
+    color: #fff;
+
+}
+.contact-us .row .subscribe {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.contact-us .row .subscribe a {
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #7fc142;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+.contact-us .row .subscribe a:hover {
+    background-color: #2ec4b6;
+}
+/*end style section contact-us*/
+/*start style footer*/
+footer {
+    margin-top: 20px;
+}
+footer .row{
+    margin: 0;
+}
+footer .row div a {
+    text-decoration: none;
+    color: #a9aeab;
+    margin-right: 10px;
+}
+/*end style footer*/
+
+
